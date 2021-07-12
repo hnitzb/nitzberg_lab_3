@@ -1,0 +1,17 @@
+---
+title: "Git Hub Intro Lab"
+author: "Harry Nitzberg"
+output: word_document
+---
+
+```{r}
+suppressPackageStartupMessages(library(tidyverse))
+```
+```{r}
+mpg
+```
+```{r}
+ggplot(data=mpg)+
+  geom_boxplot(mapping=aes(x=trans, y=cty))
+```
+
